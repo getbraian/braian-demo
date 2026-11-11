@@ -20,6 +20,15 @@ The command starts BrAIan and opens it in your browser at <http://localhost:8484
 
 Create or open a vault in the app. To use the AI assistant, connect a provider under **Settings → AI providers**.
 
+## Ways to use BrAIan
+
+- **Run it now:** `npx braian` starts the published app locally.
+- **Android and iOS:** add your running instance to your home screen for a native-feeling web app. On iPhone or iPad, use Safari’s Share → Add to Home Screen and keep Open as Web App enabled when shown. On Android, use Chrome’s Add to home screen → Install when offered. Your phone needs to reach your BrAIan server over HTTPS; set a password before exposing it.
+- **Docker image:** coming soon.
+- **Electron desktop app:** coming soon.
+
+Explore the [full feature tour](https://getbraian.github.io/#all-features), including sharing, encrypted Safe Notes, journals, RSS, dictation, recordings, calendars, Discovery, Git versioning and the SQLite browser.
+
 ## Command line
 
 ```text
