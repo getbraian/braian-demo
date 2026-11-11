@@ -1,5 +1,7 @@
 # BrAIan
 
+[Visit the website](https://getbraian.github.io)
+
 BrAIan is a local-first personal knowledge workspace for your notes, people, tasks and projects. Keep information in Markdown files, connect it through a typed knowledge graph, and work with it through notes, boards, calendars and an AI assistant.
 
 Use the assistant to turn unstructured input into organised notes, or ask questions about what is in your vault. Your notes and their structure live in folders on your computer; AI features use a provider you connect in Settings.
