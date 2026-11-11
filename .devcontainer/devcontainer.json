@@ -1,0 +1,29 @@
+{
+  "name": "Try BrAIan",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24-bookworm",
+  "remoteUser": "node",
+  "postCreateCommand": "node .devcontainer/setup.mjs",
+  "postAttachCommand": "node .devcontainer/start.mjs",
+  "forwardPorts": [
+    8484
+  ],
+  "portsAttributes": {
+    "8484": {
+      "label": "BrAIan \u00b7 your trial vault",
+      "onAutoForward": "openPreview",
+      "protocol": "http"
+    }
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "TRY.md"
+      ]
+    },
+    "vscode": {
+      "settings": {
+        "remote.autoForwardPorts": true
+      }
+    }
+  }
+}

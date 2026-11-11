@@ -1,0 +1,10 @@
+import { execFileSync } from 'node:child_process';
+import { cpSync, existsSync, mkdirSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+execFileSync('npx', ['--yes', 'npm@11.6.2', 'ci', '--no-audit', '--no-fund'], { cwd: resolve(root, '.devcontainer/runtime'), stdio: 'inherit' });
+const trial = resolve(root, '.braian-demo');
+mkdirSync(trial, { recursive: true });
+if (!existsSync(resolve(trial, 'vault'))) cpSync(resolve(root, 'demo-vault'), resolve(trial, 'vault'), { recursive: true });
+console.log('BrAIan is installed. Your editable trial vault is in .braian-demo/vault.');

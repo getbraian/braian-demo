@@ -1,0 +1,6 @@
+featureDefaults: 3
+files:
+  enabled: true
+agent:
+  variables: {}
+  entityBindings: []

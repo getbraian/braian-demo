@@ -1,0 +1,8 @@
+{
+  "name": "braian-codespaces-runtime",
+  "private": true,
+  "description": "Pinned published BrAIan runtime for the public trial",
+  "dependencies": {
+    "braian": "0.0.4"
+  }
+}

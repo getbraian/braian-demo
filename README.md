@@ -1,8 +1,8 @@
 # BrAIan
 
-[Visit the website](https://getbraian.github.io)
+[Visit the website](https://getbraian.github.io) · [Try in GitHub Codespaces](https://codespaces.new/getbraian/braian?quickstart=1)
 
-BrAIan is a local-first personal knowledge workspace for your notes, people, tasks and projects. Keep information in Markdown files, connect it through a typed knowledge graph, and work with it through notes, boards, calendars and an AI assistant.
+BrAIan starts with files and a rich Markdown editor. Write notes, browse your vault, open code and preview HTML. Add structure when you want it: note types, properties and relationships turn the same files into a personal knowledge workspace, with views and optional AI to help you use it.
 
 Use the assistant to turn unstructured input into organised notes, or ask questions about what is in your vault. Your notes and their structure live in folders on your computer; AI features use a provider you connect in Settings.
 
@@ -18,7 +18,11 @@ npx braian
 
 The command starts BrAIan and opens it in your browser at <http://localhost:8484>. Keep the terminal running while you use the app; press `Ctrl+C` to stop it. No source checkout or separate build is needed.
 
-Create or open a vault in the app. To use the AI assistant, connect a provider under **Settings → AI providers**.
+Create or open a vault in the app. A new vault starts with Files. Enable more tools in Settings for each vault as you need them. To use the AI assistant, connect a provider under **Settings → AI providers**.
+
+### Try in your browser
+
+[Open a prepared GitHub Codespace](https://codespaces.new/getbraian/braian?quickstart=1). It installs the published app, starts a small demo vault and forwards private port 8484 to the internal preview. GitHub sign-in and Codespaces quota are required; your plan may charge for use. [Trial details and troubleshooting](TRY.md).
 
 ## Ways to use BrAIan
 
@@ -28,6 +32,14 @@ Create or open a vault in the app. To use the AI assistant, connect a provider u
 - **Electron desktop app:** coming soon.
 
 Explore the [full feature tour](https://getbraian.github.io/#all-features), including sharing, encrypted Safe Notes, journals, RSS, dictation, recordings, calendars, Discovery, Git versioning and the SQLite browser.
+
+## Your files, your workspace
+
+Use multiple vaults, choose optional features per vault, and switch light/dark themes. BrAIan works with core Obsidian Markdown and wiki-link conventions and can use the same vault folder alongside Obsidian; simultaneous edits use the last saved version. Obsidian plugins, themes and workspaces are not executed.
+
+Notes and vault metadata stay on the computer, VPS or cloud server running BrAIan. Encrypted note bodies and safe blocks are excluded from search and AI reads; titles, properties and attachments remain separate. Optional remote AI/transcription services receive the context you send them.
+
+Connect multiple AI providers: OpenAI and OpenRouter API keys, Groq, OpenAI-compatible endpoints, or experimental ChatGPT Codex, Claude and GitHub Copilot subscription connectors. Subscription support depends on vendor policies and availability. WhisperKit provides speech recognition through a compatible Mac server; Groq provides remote speech-to-text. Jev provides decision routing. More integrations can be added over time.
 
 ## Command line
 
