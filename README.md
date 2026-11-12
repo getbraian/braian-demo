@@ -1,12 +1,12 @@
-# BrAIan
+# BrAIan demo
 
-[Visit the website](https://getbraian.github.io) · [Try in GitHub Codespaces](https://codespaces.new/getbraian/braian?quickstart=1)
+[Visit the website](https://getbraian.github.io) · [Try in GitHub Codespaces](https://codespaces.new/getbraian/braian-demo?quickstart=1)
 
 BrAIan starts with files and a rich Markdown editor. Write notes, browse your vault, open code and preview HTML. Add structure when you want it: note types, properties and relationships turn the same files into a personal knowledge workspace, with views and optional AI to help you use it.
 
 Use the assistant to turn unstructured input into organised notes, or ask questions about what is in your vault. Your notes and their structure live in folders on your computer; AI features use a provider you connect in Settings.
 
-BrAIan is in active development. This repository is its public home for documentation and updates. **We will add the source code as soon as possible.** You can already run the published app with npm.
+BrAIan is in active development. This repository contains the Codespaces demo, starter vault and public documentation. The `getbraian/braian` repository name is reserved for the main application source, which we will add as soon as possible. You can already run the published app with npm.
 
 ## Get started
 
@@ -22,7 +22,7 @@ Create or open a vault in the app. A new vault starts with Files. Enable more to
 
 ### Try in your browser
 
-[Open a prepared GitHub Codespace](https://codespaces.new/getbraian/braian?quickstart=1). It installs the published app, starts a small demo vault and forwards private port 8484 to the internal preview. GitHub sign-in and Codespaces quota are required; your plan may charge for use. From the Codespace terminal, use `npm start` or `make start` to start it again. [Trial details and troubleshooting](TRY.md).
+[Open a prepared GitHub Codespace](https://codespaces.new/getbraian/braian-demo?quickstart=1). It installs the published app, starts a small demo vault and forwards private port 8484 to the internal preview. GitHub sign-in and Codespaces quota are required; your plan may charge for use. From the Codespace terminal, use `npm start` or `make start` to start it again. [Trial details and troubleshooting](TRY.md).
 
 ## Ways to use BrAIan
 
