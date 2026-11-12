@@ -2,13 +2,15 @@
 
 The published app starts automatically after the Codespace connects. Its private port **8484** is configured to open in the internal preview. A single demo vault opens directly; start with Files and `Welcome.md`.
 
-If the preview does not appear, open the **Ports** panel and choose **Open in Preview** or **Open in Browser** for port 8484. To restart the launcher, run:
+If the preview does not appear, open the **Ports** panel and choose **Open in Preview** or **Open in Browser** for port 8484. To start BrAIan again, run either command from the repository folder:
 
 ```sh
-node .devcontainer/start.mjs
+npm start
+# or
+make start
 ```
 
-The launcher reuses an already running app and never resets your notes. Install/setup can be repeated with `node .devcontainer/setup.mjs`; it copies the seed vault only when your trial vault is missing.
+The launcher reuses an already running app and never resets your notes. Install/setup can be repeated with `npm run setup` (or `make setup`); it copies the seed vault only when your trial vault is missing.
 
 ## Where things live
 
@@ -32,3 +34,5 @@ References: [GitHub's preview setup](https://docs.github.com/en/codespaces/setti
 ## Validation
 
 The setup and launcher were checked locally in the configured Node 24 Linux image as its non-root `node` user: installation, successful vault indexing, file listing, served web app, repeated setup preserving an existing note, and reconnecting without a duplicate server all passed. The Files-only starter vault and Welcome note were also checked in a browser. A hosted Codespace was not provisioned during that check; automatic internal preview is configured according to GitHub’s documented `openPreview` flow.
+
+Both root-level launch wrappers (`npm start` and `make start`) were also checked locally: the first started a healthy trial server and the second reused it.

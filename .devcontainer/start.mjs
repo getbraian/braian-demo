@@ -9,7 +9,7 @@ const trial = resolve(root, '.braian-demo');
 const vault = resolve(trial, 'vault');
 const data = resolve(trial, 'data');
 const runtime = resolve(root, '.devcontainer/runtime/node_modules/braian');
-if (!existsSync(vault) || !existsSync(runtime)) throw new Error('Run node .devcontainer/setup.mjs first.');
+if (!existsSync(vault) || !existsSync(runtime)) throw new Error('Run npm run setup (or make setup) first.');
 mkdirSync(data, { recursive: true });
 const url = `http://127.0.0.1:${port}`;
 async function ready() {

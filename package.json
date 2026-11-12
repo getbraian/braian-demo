@@ -1,0 +1,9 @@
+{
+  "name": "braian-codespaces-trial",
+  "private": true,
+  "description": "Launch the published BrAIan trial in GitHub Codespaces",
+  "scripts": {
+    "start": "node .devcontainer/start.mjs",
+    "setup": "node .devcontainer/setup.mjs"
+  }
+}

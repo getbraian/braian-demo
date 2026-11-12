@@ -22,7 +22,7 @@ Create or open a vault in the app. A new vault starts with Files. Enable more to
 
 ### Try in your browser
 
-[Open a prepared GitHub Codespace](https://codespaces.new/getbraian/braian?quickstart=1). It installs the published app, starts a small demo vault and forwards private port 8484 to the internal preview. GitHub sign-in and Codespaces quota are required; your plan may charge for use. [Trial details and troubleshooting](TRY.md).
+[Open a prepared GitHub Codespace](https://codespaces.new/getbraian/braian?quickstart=1). It installs the published app, starts a small demo vault and forwards private port 8484 to the internal preview. GitHub sign-in and Codespaces quota are required; your plan may charge for use. From the Codespace terminal, use `npm start` or `make start` to start it again. [Trial details and troubleshooting](TRY.md).
 
 ## Ways to use BrAIan
 

@@ -2,8 +2,8 @@
   "name": "Try BrAIan",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:24-bookworm",
   "remoteUser": "node",
-  "postCreateCommand": "node .devcontainer/setup.mjs",
-  "postAttachCommand": "node .devcontainer/start.mjs",
+  "postCreateCommand": "npm run setup",
+  "postAttachCommand": "npm start",
   "forwardPorts": [
     8484
   ],
