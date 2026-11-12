@@ -10,14 +10,14 @@ npm start
 make start
 ```
 
-The launcher reuses an already running app and never resets your notes. Install/setup can be repeated with `npm run setup` (or `make setup`); it copies the seed vault only when your trial vault is missing.
+The launcher reuses an already running app and never resets your notes. Install/setup can be repeated with `npm run setup` (or `make setup`); it installs the `welcome` demo vault only when your trial vault is missing.
 
 ## Where things live
 
 - Your editable vault: `.braian-demo/vault`.
 - Application settings and any credentials you connect: `.braian-demo/data`.
 - Server output: `.braian-demo/server.log`.
-- Public seed files: `demo-vault/`; these remain unchanged by editing the trial.
+- Starter vault source: `demos/welcome/vault/`. Setup installs its latest released zip, listed in `demos/manifest.json` and checked against its sha256; editing the trial leaves both unchanged.
 
 The entire `.braian-demo/` folder is ignored by Git. Do not copy its credentials into a commit. New Codespaces ports are private by default: keep this one private. If you choose to expose an instance publicly, configure BrAIan authentication first.
 

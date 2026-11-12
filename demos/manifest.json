@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-12T14:19:59Z",
+  "demos": [
+    {
+      "id": "family",
+      "name": "Family",
+      "description": "A minimal household vault with every optional feature off: start from almost nothing and turn tools on in Settings as you need them.",
+      "version": "20261112-141429",
+      "releasedAt": "2026-11-12T14:14:29Z",
+      "appVersion": "0.0.4",
+      "source": "braian-codebase:.data/vaults/family",
+      "sourceCommit": "97816d3a08e268a988c7799a1f42f8076a8e26a4",
+      "treeHash": "841c9609e5528663b5c3ecc0000c13f8b92fdf9b",
+      "path": "family/family-20261112-141429.zip",
+      "url": "https://raw.githubusercontent.com/getbraian/braian-demo/main/demos/family/family-20261112-141429.zip",
+      "size": 583,
+      "fileCount": 1,
+      "sha256": "5366fb1949a4f220fedda9158efb3091d4007ca65607b1b7b90c0919b5bae243"
+    },
+    {
+      "id": "office",
+      "name": "Office",
+      "description": "A small company workspace: people, teams, projects, tasks, meetings and locations linked in a typed graph, with boards, calendars, dashboards, Discovery and an SQLite database to explore.",
+      "version": "20261112-141428",
+      "releasedAt": "2026-11-12T14:14:28Z",
+      "appVersion": "0.0.4",
+      "source": "braian-codebase:.data/vaults/office",
+      "sourceCommit": "97816d3a08e268a988c7799a1f42f8076a8e26a4",
+      "treeHash": "0f50e3edc131f15fad7cda8858c968efed0dbe24",
+      "path": "office/office-20261112-141428.zip",
+      "url": "https://raw.githubusercontent.com/getbraian/braian-demo/main/demos/office/office-20261112-141428.zip",
+      "size": 55858,
+      "fileCount": 39,
+      "sha256": "a1d0dc0749b27153dc34cc27016e13b131b5f9e636f135c0d4fffb82ccc26ba0"
+    },
+    {
+      "id": "welcome",
+      "name": "Welcome",
+      "description": "A small starter vault with only Files on: a few linked notes and a tiny website folder. Turn on more tools in Settings when you are ready.",
+      "version": "20261112-141959",
+      "releasedAt": "2026-11-12T14:19:59Z",
+      "appVersion": "0.0.4",
+      "source": "braian-demo:demos/welcome/vault",
+      "sourceCommit": null,
+      "treeHash": "fed908e0dfc57a3f1ef676a127568d9f2f964af5",
+      "path": "welcome/welcome-20261112-141959.zip",
+      "url": "https://raw.githubusercontent.com/getbraian/braian-demo/main/demos/welcome/welcome-20261112-141959.zip",
+      "size": 2532,
+      "fileCount": 6,
+      "sha256": "913ef091b81a1f71a2a83682ca77db8704c765e9adc6cb787d63e5d3e5da1bf6"
+    }
+  ]
+}
